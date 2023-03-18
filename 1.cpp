@@ -18,6 +18,14 @@ int main() {
             b.insert(0,"0");
         }
     }
-    cout<<a<<"\n"<<b<<endl;
+    if(a>b) {
+        cout<<"greater"<<endl;
+    }
+    else if(a<b) {
+        cout<<"less"<<endl;
+    }
+    else {
+        cout<<"equal"<<endl;
+    }
     return 0;
 }
