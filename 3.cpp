@@ -4,7 +4,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 string xx;
-stack<char>xs;
+string pointxx;
+int reciter;
 string flag="not point";
 int main() {
     cin>>xx;
@@ -18,6 +19,5 @@ int main() {
         }
     }
     cout<<".";
-
     return 0;
 }
